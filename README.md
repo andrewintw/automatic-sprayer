@@ -34,7 +34,7 @@ use LogicGreen LGT8F328P Microcontroller (AVR Mega328 compatible)
 
 ### 3D 列印檔
 
-你可以在小熊的網誌中找到他公開的 3D 列印檔（in [thingiverse](https://www.thingiverse.com/thing:4245845)）自己列印，然後去買齊說明中所提到的螺絲，接著看他 Youtube 裡面的教學一步步製作。三種噴頭都有對應的製作影片，蠻詳細的。
+你可以在小熊的網誌中找到他公開的 3D 列印檔（from [thingiverse](https://www.thingiverse.com/thing:4245845)）自己列印，然後去買齊說明中所提到的螺絲，接著看他 Youtube 裡面的教學一步步製作。三種噴頭都有對應的製作影片，蠻詳細的。
 
 * 說明影片：[[抗疫] 噴頭01 紅外線自動酒精噴霧器 Arduino 酒精 異丙醇](https://www.youtube.com/watch?v=PxWWpVySzto)
 
