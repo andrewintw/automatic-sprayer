@@ -1,8 +1,8 @@
 #include <Servo.h>
 
 #define SERVO_PIN                7
-#define SERVO_INIT_POS          40  // trigger init position (angle)
-#define SERVO_END_POS           80  // trigger end position (angle)
+#define SERVO_INIT_POS          31  // trigger init position (angle)
+#define PRESS_ANGLE             25
 
 #define OBSTACLE_PIN            12  // Infrared Obstacle Sensor
 #define OBSTACLE_DETECTED       LOW
@@ -54,7 +54,7 @@ void loop() {
       /* keep few ms and pull trigger  */
       //Serial.println('time's up, pull trigger');
       if (is_sprayer_ready == 1) {
-        pulling_trigger(SERVO_END_POS, 400);
+        pulling_trigger(SERVO_INIT_POS + PRESS_ANGLE, 500);
         is_sprayer_ready = 0;
       }
     }
